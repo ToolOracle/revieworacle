@@ -1,36 +1,69 @@
-# ⭐ ReviewOracle
+# ⭐ reviewOracle
 
-**Review & Reputation Intelligence MCP Server**
+**Consumer MCP Server** — 8 tools | Part of [ToolOracle](https://tooloracle.io)
 
-8 MCP tools | Part of [ToolOracle](https://tooloracle.io) | Live at `tooloracle.io/review/mcp/`
+![Tools](https://img.shields.io/badge/MCP_Tools-8-10B898?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Live-00C853?style=flat-square)
+![Tier](https://img.shields.io/badge/Tier-Free-2196F3?style=flat-square)
 
 ## Quick Connect
 
 ```bash
+# Claude Desktop / Cursor / Windsurf
 npx -y mcp-remote https://tooloracle.io/review/mcp/
 ```
 
-## Tools
+```json
+// claude_desktop_config.json
+{
+  "mcpServers": {
+    "revieworacle": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://tooloracle.io/review/mcp/"]
+    }
+  }
+}
+```
 
-reviews_search, brand_monitor, competitor_compare, product_reviews, sentiment_trend, warentest_search, alert_check, health_check
+## Tools (8)
+
+| Tool | Description |
+|------|-------------|
+| `review_search` | Search for product reviews, tests, and ratings from news sources. Returns articl |
+| `brand_monitor` | Monitor all news mentions of a brand. Returns mention count, top sources, and re |
+| `competitor_compare` | Compare news sentiment between your brand and a competitor. Returns sentiment sc |
+| `product_reviews` | Find product test and review articles. Highlights trusted sources like Stiftung  |
+| `sentiment_trend` | Analyze overall sentiment trend for a brand based on recent news. Returns positi |
+| `warentest_search` | Search Stiftung Warentest results for any product category. |
+| `alert_check` | Check for recent negative news, recalls, warnings or lawsuits about a brand. |
+| `health_check` | ReviewOracle server status. |
 
 ## Pricing
 
-| Tier | Price | Units/month |
-|------|-------|-------------|
-| Free | $0 | 50 |
-| Starter | $49 | 500 |
-| Pro | $149 | 2,000 |
-| Agency | $349 | 6,000 |
+| Tier | Rate Limit | Price |
+|------|-----------|-------|
+| Free | 100 calls/day | €0 |
+| Pro | 10,000 calls/day | €29/month |
+| Enterprise | Unlimited | Custom |
 
-1 unit = $0.01 | x402 USDC micropayments on Base supported
+> Free tier includes all tools with rate limiting. Upgrade for higher limits and priority support.
 
-## About ToolOracle
+## Part of ToolOracle
 
-ToolOracle delivers 24 AI-native intelligence products via MCP. 230+ tools across SEO, crypto, travel, weather, sports, B2B intelligence and more.
+reviewOracle is one of **42 specialized MCP servers** in the [ToolOracle](https://tooloracle.io) ecosystem — the largest collection of production-ready MCP tools for AI agents.
 
-[tooloracle.io](https://tooloracle.io)
 
-## License
 
-MIT
+**Related Oracles:**
+- [FeedOracle](https://feedoracle.io) — Evidence-grade compliance data infrastructure
+- [ToolOracle](https://tooloracle.io) — 42 Oracles, 390+ MCP Tools
+
+## Links
+
+- 🌐 Live: `https://tooloracle.io/review/mcp/`
+- 📚 Docs: [tooloracle.io/docs](https://tooloracle.io/docs)
+- 🏠 Platform: [tooloracle.io](https://tooloracle.io)
+
+---
+
+*Built by [FeedOracle](https://feedoracle.io) — Evidence by Design*
