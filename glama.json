@@ -1,0 +1,1 @@
+{"name": "ReviewOracle", "description": "Review & reputation intelligence \u2014 8 MCP tools for sentiment, brand monitoring", "category": "business", "tags": ["reviews", "sentiment", "reputation", "brand"], "tools": 8, "transport": "streamable-http", "endpoint": "https://tooloracle.io/review/mcp/"}
