@@ -1,1 +1,8 @@
-{"name": "ReviewOracle", "description": "Review & reputation intelligence \u2014 8 MCP tools for sentiment, brand monitoring", "category": "business", "tags": ["reviews", "sentiment", "reputation", "brand"], "tools": 8, "transport": "streamable-http", "endpoint": "https://tooloracle.io/review/mcp/"}
+{
+  "name": "reviewOracle",
+  "description": "Review & Reputation Intelligence \u2014 8 MCP tools for review monitoring",
+  "repository": "https://github.com/ToolOracle/revieworacle",
+  "endpoint": "https://tooloracle.io/review/mcp/",
+  "tools": 8,
+  "license": "MIT"
+}
