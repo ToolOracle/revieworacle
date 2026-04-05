@@ -1,0 +1,5 @@
+name: ReviewOracle
+description: Product review intelligence — 10 tools
+endpoint: https://tooloracle.io/review/mcp/
+transport: streamable-http
+license: MIT
